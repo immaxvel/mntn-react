@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.nav li {
+  list-style-type: none;
+  margin-right: 4rem;
+  font-style: normal;
+  font-weight: bold;
+  display: block;
+}
+a {
+  font-family: Gilroy;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile .account {
+  font-family: Gilroy;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+.profile .fa-user-circle {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.profile:hover {
+  color: #fbd784;
+  transition: 0.5s;
+  cursor: pointer;
+}
