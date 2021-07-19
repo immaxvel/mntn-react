@@ -1,0 +1,28 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links .blog {
+  margin-right: 21.2rem;
+}
+.links ul {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fbd784;
+}
+.links ul li {
+  color: #fff;
+  list-style-type: none;
+  margin-top: 1.6rem;
+  font-size: 18px;
+}
+.links ul li:hover {
+  color: #fbd784;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.links ul li a:first-child {
+  margin-top: 5.6rem;
+}

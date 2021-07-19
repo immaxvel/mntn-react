@@ -47,4 +47,10 @@ a:hover {
   transition: 0.5s;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 80rem auto;
+  width: 146.2rem; }
+
 
