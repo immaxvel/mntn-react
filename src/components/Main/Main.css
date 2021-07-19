@@ -1,0 +1,110 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 13.8rem 8rem 0 8rem;
+}
+.Main .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 17.3rem;
+  width: 2.4rem;
+  color: #fff;
+  text-align: center;
+  margin-left: -3rem;
+  align-self: center;
+}
+.Main .social .follow {
+  transform: rotate(90deg);
+  margin-right: 2rem;
+  width: 8rem;
+  font-family: Gilroy;
+  font-size: 18px;
+  line-height: 22px;
+}
+.Main .social .social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Main .social .social-icons i {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.Main .slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: -1rem;
+  width: 7.7rem;
+  text-align: center;
+  align-self: center;
+}
+.Main .slider div {
+  height: 6rem;
+  border-right: 1px solid white;
+  color: #fff;
+  padding-top: 25%;
+  transition: 0.5s;
+}
+.Main .slider div a {
+  text-decoration: none;
+  color: #fff;
+}
+.Main .slider div:hover {
+  color: #fbd784;
+  transition: 0.5s;
+  background-color: rgba(255, 255, 255, 0.151);
+  transition: 0.5s;
+  border-right: 4px solid #fff;
+  transition: 0.1s;
+}
+.Main .main {
+  color: #fff;
+}
+.Main .main .main-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.Main .main .title {
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 100px;
+  margin-bottom: 4rem;
+  margin-top: 3.2rem;
+}
+.Main .main .dash {
+  background-color: #fbd784;
+  width: 7.2rem;
+  height: 0.2rem;
+  align-self: center;
+  margin-right: 3.2rem;
+}
+.Main .main .guide {
+  color: #fbd784;
+  font-weight: 800;
+  letter-spacing: 6px;
+}
+.Main .main .scroll {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  width: 15rem;
+  height: 2rem;
+  background-color: #fbd784;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+.Main .main .scroll a {
+  margin-right: 2rem;
+  color: #fff;
+}
+.Main .main .scroll i {
+  align-self: center;
+  font-size: 1.7rem;
+}
