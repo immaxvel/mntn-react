@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 @font-face {
   font-family: "Chronicle Display Roman";
@@ -17,11 +18,11 @@
   src: url(../src/fonts/Chronicle\ Display\ Semibold.woff);
 }
 @font-face {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: normal;
-    src: url(../src/fonts/Gilroy-Regular.woff);
-  }
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../src/fonts/Gilroy-Regular.woff);
+}
 
 html {
   font-size: 10px;
@@ -49,5 +50,6 @@ a:hover {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 80rem auto;
-  width: 146.2rem; }
+  margin: 50rem auto -50rem auto;
+  width: 146.2rem;
+}
