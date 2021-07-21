@@ -8,11 +8,7 @@ let blog = [
   "Contact Us",
   "Privacy Policy",
 ];
-let more = [
-    "The Team",
-     "Jobs",
-      "Press"
-];
+let more = ["The Team", "Jobs", "Press"];
 
 const FooterRight = () => {
   return (
@@ -20,8 +16,8 @@ const FooterRight = () => {
       <ul className="blog">
         More on The Blog
         {blog.map((i) => (
-          <a href="#">
-            <li key={i}>{i}</li>
+          <a href="/#" key={i}>
+            <li >{i}</li>
           </a>
         ))}
       </ul>
@@ -29,8 +25,8 @@ const FooterRight = () => {
       <ul className="more">
         More on MNTN
         {more.map((i) => (
-          <a href="#">
-            <li key={i}>{i}</li>
+          <a href="/#" key={i}>
+            <li >{i}</li>
           </a>
         ))}
       </ul>

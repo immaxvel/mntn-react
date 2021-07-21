@@ -1,0 +1,46 @@
+.main {
+  color: #fff;
+}
+.main .main-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main .title {
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 100px;
+  margin-bottom: 4rem;
+  margin-top: 3.2rem;
+}
+.main .dash {
+  background-color: #fbd784;
+  width: 7.2rem;
+  height: 0.2rem;
+  align-self: center;
+  margin-right: 3.2rem;
+}
+.main .guide {
+  color: #fbd784;
+  font-weight: 800;
+  letter-spacing: 6px;
+}
+.main .scroll {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  width: 15rem;
+  height: 2rem;
+  background-color: #fbd784;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+.main .scroll a {
+  margin-right: 2rem;
+  color: #fff;
+}
+.main .scroll i {
+  align-self: center;
+  font-size: 1.7rem;
+}

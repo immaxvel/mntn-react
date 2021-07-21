@@ -1,0 +1,84 @@
+.container .topic-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20rem;
+    font-family: Gilroy;
+    font-size: 18px;
+  }
+  .container .topic-one .topic-one-text {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 72rem;
+    order: 1;
+    margin-right: 26rem;
+  }
+  .container .topic-one .topic-one-text .number {
+    position: absolute;
+    top: 3.8rem;
+    left: 0;
+    font-weight: bold;
+    font-size: 240px;
+    line-height: 240px;
+    opacity: 0.1;
+    color: #fff;
+  }
+  .container .topic-one .topic-one-text .topic {
+    width: 63.2rem;
+    min-height: 43.9rem;
+    color: #fff;
+  }
+  .container .topic-one .topic-one-text .topic .topic-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 2.7rem;
+  }
+  .container .topic-one .topic-one-text .topic .topic-title .dash {
+    background-color: #fbd784;
+    width: 7.2rem;
+    height: 0.2rem;
+    align-self: center;
+    margin-right: 3.2rem;
+  }
+  .container .topic-one .topic-one-text .topic .topic-title .get-started {
+    font-weight: 800;
+    letter-spacing: 6px;
+    color: #fbd784;
+  }
+  .container .topic-one .topic-one-text .topic .topic-main {
+    font-family: "Chronicle Display Semibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #fff;
+    margin-bottom: 2.7rem;
+  }
+  .container .topic-one .topic-one-text .topic .topic-info p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 2.7rem;
+  }
+  .container .topic-one .topic-one-text .topic .read-more {
+    display: flex;
+    flex-direction: row;
+    color: #fbd784;
+    align-items: center;
+    margin-right: 1rem;
+    margin-top: 2.8rem;
+  }
+  .container .topic-one .topic-one-text .topic .read-more p {
+    font-family: Gilroy;
+    margin-right: 1.6rem;
+  }
+  .container .topic-one .topic-one-image {
+    order: 2;
+    align-self: center;
+  }

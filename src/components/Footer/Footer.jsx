@@ -7,7 +7,7 @@ import FooterRight from "./FooterRight/FooterRight";
 const Footer = () => {
   return (
     <div className="container">
-      <div className="footer">
+      <div className="footer" id='footer'>
         <FooterLeft />
         <FooterRight />
         <Scroll />

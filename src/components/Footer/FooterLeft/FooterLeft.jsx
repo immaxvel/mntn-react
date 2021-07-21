@@ -15,10 +15,10 @@ const FooterLeft = () => {
           <div className="footer-social">
             <p className="footer-follow">Follow Us</p>
             <div className="footer-icons">
-              <a href="https://www.instagram.com/?hl=ru" target="_blank">
+              <a href="https://www.instagram.com/?hl=ru" rel="noreferrer" target="_blank">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://twitter.com/?lang=ru" target="_blank">
+              <a href="https://twitter.com/?lang=ru" rel="noreferrer" target="_blank">
                 <i className="fab fa-twitter"></i>
               </a>
             </div>

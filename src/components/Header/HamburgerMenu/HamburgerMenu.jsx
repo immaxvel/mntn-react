@@ -8,7 +8,7 @@ const HamburgerMenu = () => {
     return (
         <div className={`${styles["hamburger-menu"]}`} id="burger">
         <input className={styles["menu-toggle"]} id='menu-toggle' type="checkbox" />
-        <label className={styles['menu-btn']} for="menu__toggle">
+        <label className={styles['menu-btn']} htmlFor="menu__toggle">
           <span></span>
         </label>
         <MenuList/>

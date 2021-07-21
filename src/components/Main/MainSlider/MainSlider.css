@@ -1,0 +1,29 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: -1rem;
+  width: 7.7rem;
+  text-align: center;
+  align-self: center;
+}
+.slider div {
+  height: 6rem;
+  border-right: 1px solid white;
+  color: #fff;
+  padding-top: 25%;
+  transition: 0.5s;
+}
+.slider div a {
+  text-decoration: none;
+  color: #fff;
+}
+.slider div:hover {
+  color: #fbd784;
+  transition: 0.5s;
+  background-color: rgba(255, 255, 255, 0.151);
+  transition: 0.5s;
+  border-right: 4px solid #fff;
+  transition: 0.1s;
+}
