@@ -47,6 +47,7 @@
     font-weight: 800;
     letter-spacing: 6px;
     color: #fbd784;
+    font-size: 18px;
   }
   .container .topic-two .topic-two-text .topic .topic-main-two {
     font-family: "Chronicle Display Semibold";
@@ -72,6 +73,11 @@
     align-items: center;
     margin-right: 1rem;
     margin-top: 2.8rem;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container .topic-two .topic-two-text .topic .read-more-two:hover {
+    text-decoration: underline;
   }
   .container .topic-two .topic-two-text .topic .read-more-two p {
     font-family: Gilroy;

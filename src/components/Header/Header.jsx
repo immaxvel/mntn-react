@@ -1,7 +1,8 @@
 import React from "react";
 import HamburgerMenu from "./HamburgerMenu/HamburgerMenu";
 import HeaderLogo from "./Header-logo/HeaderLogo";
-import styles from './Header.module.css'
+import './Header.css'
+
 
 
 
@@ -9,7 +10,7 @@ import styles from './Header.module.css'
 const Header = () => {
     
   return (
-    <div className={styles.Header} id='header'>
+    <div className="Header" id='header'>
       <HeaderLogo/>
       <HamburgerMenu/>
     </div>

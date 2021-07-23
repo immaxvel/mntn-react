@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./MenuList.module.css";
 import Profile from "./Profile/Profile";
+import './MenuList.css'
 
 const menu = ["Equipment", "About us", "Blog"];
 
 const MenuList = () => {
   return (
-    <ul className={styles.nav}>
+    <ul className="nav">
       {menu.map((i) => (
         <li key={i}>
           <a href="/#" >

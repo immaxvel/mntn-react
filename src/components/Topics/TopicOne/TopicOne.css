@@ -73,6 +73,10 @@
     align-items: center;
     margin-right: 1rem;
     margin-top: 2.8rem;
+    cursor: pointer;
+  }
+  .container .topic-one .topic-one-text .topic .read-more:hover {
+    text-decoration: underline;
   }
   .container .topic-one .topic-one-text .topic .read-more p {
     font-family: Gilroy;

@@ -3,6 +3,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header.jsx";
 import Main from "./components/Main/Main";
 import Topics from "./components/Topics/Topics";
+import './Media.css'
 
 
 // group all anchors, set animation time and count frames

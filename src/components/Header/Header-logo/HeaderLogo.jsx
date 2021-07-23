@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './HeaderLogo.module.css'
+import "./HeaderLogo.css"
 
 const HeaderLogo = () => {
     return (
-        <div className={styles.logo}>MNTM</div>
+        <div className="logo">MNTM</div>
     )
 }
 

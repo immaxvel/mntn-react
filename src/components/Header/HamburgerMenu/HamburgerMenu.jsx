@@ -1,19 +1,21 @@
-import React from 'react'
-import styles from '../HamburgerMenu/HamburgerMenu.module.css'
-import MenuList from './MenuList/MenuList'
-
-
+import React from "react";
+import MenuList from "./MenuList/MenuList";
+import './HamburgerMenu.css'
 
 const HamburgerMenu = () => {
-    return (
-        <div className={`${styles["hamburger-menu"]}`} id="burger">
-        <input className={styles["menu-toggle"]} id='menu-toggle' type="checkbox" />
-        <label className={styles['menu-btn']} htmlFor="menu__toggle">
-          <span></span>
-        </label>
-        <MenuList/>
-      </div>
-    )
-}
+  return (
+    <div className="hamburger-menu" id="burger">
+      <input
+        className="menu__toggle"
+        id="menu__toggle"
+        type="checkbox"
+      />
+      <label className="menu__btn" htmlFor="menu__toggle">
+        <span></span>
+      </label>
+      <MenuList />
+    </div>
+  );
+};
 
-export default HamburgerMenu
+export default HamburgerMenu;

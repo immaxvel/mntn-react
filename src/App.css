@@ -53,3 +53,6 @@ a:hover {
   margin: 50rem auto -50rem auto;
   width: 146.2rem;
 }
+#menu__toggle {
+  opacity: 0;
+}
